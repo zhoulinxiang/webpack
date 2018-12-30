@@ -6931,10 +6931,10 @@ tapable@^1.0.0:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.0.tgz#0d076a172e3d9ba088fd2272b2668fb8d194b78c"
   integrity sha512-IlqtmLVaZA2qab8epUXbVWRn3aB1imbDMJtjB3nu4X0NqPkcY/JH9ZtCBWKHWPxs8Svi9tyo8w2dBoi07qZbBA==
 
-tapable@^2.0.0-beta.1:
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.0.0-beta.1.tgz#d8cc07eb4d215a33c957284ff79120e2f54d20aa"
-  integrity sha512-uGJcxCyqVLqrpb+oq4JjiFVujQ4knh7r22Unte+pcK891j6ybyOnmMRur/r62a0CXPBQUnn5aM7REjHFMwdL4Q==
+tapable@^2.0.0-beta.2:
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.0.0-beta.2.tgz#a12a84c61770ab8536abf8ae3efee108390ab3a2"
+  integrity sha512-O0OqFiXr9az2c+a0SY0DBH283vBftVCVR8aa6gmV9nBv47y1Qq/akJ0AlxfTWXt9R6ZNebo6Bt6eQKJ5WKu1rA==
 
 tar@^4:
   version "4.4.4"
