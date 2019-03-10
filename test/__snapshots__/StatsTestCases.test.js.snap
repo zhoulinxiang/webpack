@@ -503,10 +503,10 @@ Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
 PublicPath: (none)
               Asset       Size       Chunks             Chunk Names
-     b_js.bundle.js  370 bytes       {b_js}  [emitted]
-          bundle.js   7.92 KiB       {main}  [emitted]  main
-     c_js.bundle.js  579 bytes       {c_js}  [emitted]
-d_js-e_js.bundle.js  772 bytes  {d_js-e_js}  [emitted]
+     b_js.bundle.js  364 bytes       {b_js}  [emitted]
+          bundle.js   7.91 KiB       {main}  [emitted]  main
+     c_js.bundle.js  573 bytes       {c_js}  [emitted]
+d_js-e_js.bundle.js  760 bytes  {d_js-e_js}  [emitted]
 Entrypoint main = bundle.js
 chunk {b_js} b_js.bundle.js 22 bytes <{main}> [rendered]
     > ./b [./index.js] ./index.js 2:0-16
@@ -618,26 +618,26 @@ Entrypoint entry-1 = vendor-1.js entry-1.js
 `;
 
 exports[`StatsTestCases should print correct stats for commons-plugin-issue-4980 1`] = `
-"Hash: 9e8b8eda11b35b927367c10dff7c242fa9a880ac
+"Hash: d73110b4847ee0400e546b6d97cb707780342c9a
 Child
-    Hash: 9e8b8eda11b35b927367
+    Hash: d73110b4847ee0400e54
     Time: Xms
     Built at: Thu Jan 01 1970 00:00:00 GMT
                              Asset       Size  Chunks             Chunk Names
-       app.e94cb24a6ac016b37126.js   6.62 KiB   {143}  [emitted]  app
+       app.9e782d51feaf8a540dac.js   6.65 KiB   {143}  [emitted]  app
     vendor.37b166c3b85bfb1caf5f.js  616 bytes   {736}  [emitted]  vendor
-    Entrypoint app = vendor.37b166c3b85bfb1caf5f.js app.e94cb24a6ac016b37126.js
+    Entrypoint app = vendor.37b166c3b85bfb1caf5f.js app.9e782d51feaf8a540dac.js
     [117] ./entry-1.js + 2 modules 190 bytes {143} [built]
     [381] ./constants.js 87 bytes {736} [built]
         + 4 hidden modules
 Child
-    Hash: c10dff7c242fa9a880ac
+    Hash: 6b6d97cb707780342c9a
     Time: Xms
     Built at: Thu Jan 01 1970 00:00:00 GMT
                              Asset       Size  Chunks             Chunk Names
-       app.c5c07359b2c89fa75aa2.js   6.63 KiB   {143}  [emitted]  app
+       app.c68a7245dc5340329bae.js   6.67 KiB   {143}  [emitted]  app
     vendor.37b166c3b85bfb1caf5f.js  616 bytes   {736}  [emitted]  vendor
-    Entrypoint app = vendor.37b166c3b85bfb1caf5f.js app.c5c07359b2c89fa75aa2.js
+    Entrypoint app = vendor.37b166c3b85bfb1caf5f.js app.c68a7245dc5340329bae.js
     [381] ./constants.js 87 bytes {736} [built]
     [655] ./entry-2.js + 2 modules 197 bytes {143} [built]
         + 4 hidden modules"
@@ -1476,7 +1476,7 @@ Entrypoint main = main.js
  [10] ./index.js 19 bytes {179} [built]
 [195] ./not-existing.js 26 bytes {179} [built]
 [587] ./inner.js 53 bytes {179} [built]
-[636] ./parse-error.js 167 bytes {179} [built] [failed] [1 error]
+[636] ./parse-error.js 27 bytes {179} [built] [failed] [1 error]
 
 ERROR in ./not-existing.js 1:0-25
 Module not found: Error: Can't resolve 'does-not-exist' in 'Xdir/module-trace-disabled-in-error'
@@ -1501,7 +1501,7 @@ Entrypoint main = main.js
  [10] ./index.js 19 bytes {179} [built]
 [195] ./not-existing.js 26 bytes {179} [built]
 [587] ./inner.js 53 bytes {179} [built]
-[636] ./parse-error.js 167 bytes {179} [built] [failed] [1 error]
+[636] ./parse-error.js 27 bytes {179} [built] [failed] [1 error]
 
 ERROR in ./not-existing.js 1:0-25
 Module not found: Error: Can't resolve 'does-not-exist' in 'Xdir/module-trace-enabled-in-error'
@@ -1686,7 +1686,7 @@ exports[`StatsTestCases should print correct stats for parse-error 1`] = `
 main.js  4.34 KiB   {179}  main
 Entrypoint main = main.js
 [535] ./index.js + 1 modules 35 bytes {179} [built]
-[996] ./b.js 169 bytes {179} [built] [failed] [1 error]
+[996] ./b.js 55 bytes {179} [built] [failed] [1 error]
     + 4 hidden modules
 
 ERROR in ./b.js 6:7
@@ -2287,7 +2287,7 @@ Entrypoint e2 = runtime.js e2.js"
 `;
 
 exports[`StatsTestCases should print correct stats for scope-hoisting-bailouts 1`] = `
-"Hash: e34af9720bcf548d2261
+"Hash: 1c46461d8859f1a60bbf
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
 Entrypoint index = index.js
@@ -2363,12 +2363,12 @@ Child
 `;
 
 exports[`StatsTestCases should print correct stats for side-effects-issue-7428 1`] = `
-"Hash: 433c38276ce25cdcc8f4
+"Hash: 2a00397f5b10ccd74572
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
   Asset       Size  Chunks             Chunk Names
-   1.js  481 bytes     {1}  [emitted]
-main.js   9.75 KiB     {0}  [emitted]  main
+   1.js  478 bytes     {1}  [emitted]
+main.js    9.8 KiB     {0}  [emitted]  main
 Entrypoint main = main.js
 [0] ./main.js + 1 modules 231 bytes {0} [built]
     harmony side effect evaluation ./CompB ./components/src/CompAB/index.js 2:0-43
@@ -2412,7 +2412,7 @@ Entrypoint main = main.js
 `;
 
 exports[`StatsTestCases should print correct stats for side-effects-simple-unused 1`] = `
-"Hash: 0ffdcd1c41709e32a2ec
+"Hash: 6fe12dc0474a9db9245b
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
   Asset      Size  Chunks             Chunk Names
@@ -2448,7 +2448,7 @@ exports[`StatsTestCases should print correct stats for simple 1`] = `
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
     Asset      Size  Chunks             Chunk Names
-bundle.js  1.56 KiB  {main}  [emitted]  main
+bundle.js  1.55 KiB  {main}  [emitted]  main
 Entrypoint main = bundle.js
 [./index.js] 0 bytes {main} [built]"
 `;
@@ -3422,7 +3422,7 @@ chunk {794} default/async-a.js (async-a) 134 bytes <{179}> [rendered]
 `;
 
 exports[`StatsTestCases should print correct stats for tree-shaking 1`] = `
-"Hash: a74d3a7695fab0e2d9aa
+"Hash: 9dbb25d0f006d2ec5246
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
     Asset     Size  Chunks             Chunk Names
@@ -3483,13 +3483,13 @@ WARNING in Terser Plugin: Dropping unused function someUnRemoteUsedFunction5 [./
 `;
 
 exports[`StatsTestCases should print correct stats for wasm-explorer-examples-sync 1`] = `
-"Hash: f8e2addadb4565216497
+"Hash: 28e82fbaa364030a4205
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
                            Asset       Size  Chunks             Chunk Names
 00885349ebe3dd903faa.module.wasm  125 bytes   {325}  [emitted]
                    230.bundle.js  430 bytes   {230}  [emitted]
-                   325.bundle.js   3.93 KiB   {325}  [emitted]
+                   325.bundle.js    3.9 KiB   {325}  [emitted]
                    526.bundle.js  329 bytes   {526}  [emitted]
                    780.bundle.js  842 bytes   {780}  [emitted]
 7d7a509c17179e42766a.module.wasm   94 bytes   {325}  [emitted]
