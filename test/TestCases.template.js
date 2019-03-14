@@ -36,7 +36,8 @@ const DEFAULT_OPTIMIZATIONS = {
 
 const NO_EMIT_ON_ERRORS_OPTIMIZATIONS = {
 	noEmitOnErrors: false,
-	minimizer: [terserForTesting]
+	minimizer: [terserForTesting],
+	minimize: false
 };
 
 const casesPath = path.join(__dirname, "cases");

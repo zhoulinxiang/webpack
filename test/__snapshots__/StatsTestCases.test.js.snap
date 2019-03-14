@@ -430,7 +430,7 @@ Child all:
 `;
 
 exports[`StatsTestCases should print correct stats for chunk-module-id-range 1`] = `
-"Hash: 72e3b32fcbbc550ae041
+"Hash: 4b7df25b6465c464acfe
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
 PublicPath: (none)
@@ -618,26 +618,26 @@ Entrypoint entry-1 = vendor-1.js entry-1.js
 `;
 
 exports[`StatsTestCases should print correct stats for commons-plugin-issue-4980 1`] = `
-"Hash: d73110b4847ee0400e546b6d97cb707780342c9a
+"Hash: 4e6e3574b0fdbe8c9ec620e961b248d4afe93246
 Child
-    Hash: d73110b4847ee0400e54
+    Hash: 4e6e3574b0fdbe8c9ec6
     Time: Xms
     Built at: Thu Jan 01 1970 00:00:00 GMT
                              Asset       Size  Chunks             Chunk Names
-       app.9e782d51feaf8a540dac.js   6.65 KiB   {143}  [emitted]  app
-    vendor.37b166c3b85bfb1caf5f.js  616 bytes   {736}  [emitted]  vendor
-    Entrypoint app = vendor.37b166c3b85bfb1caf5f.js app.9e782d51feaf8a540dac.js
+       app.13a6f58bdb321fc4146a.js   6.65 KiB   {143}  [emitted]  app
+    vendor.22698e25646290b0dcc1.js  616 bytes   {736}  [emitted]  vendor
+    Entrypoint app = vendor.22698e25646290b0dcc1.js app.13a6f58bdb321fc4146a.js
     [117] ./entry-1.js + 2 modules 190 bytes {143} [built]
     [381] ./constants.js 87 bytes {736} [built]
         + 4 hidden modules
 Child
-    Hash: 6b6d97cb707780342c9a
+    Hash: 20e961b248d4afe93246
     Time: Xms
     Built at: Thu Jan 01 1970 00:00:00 GMT
                              Asset       Size  Chunks             Chunk Names
-       app.c68a7245dc5340329bae.js   6.67 KiB   {143}  [emitted]  app
-    vendor.37b166c3b85bfb1caf5f.js  616 bytes   {736}  [emitted]  vendor
-    Entrypoint app = vendor.37b166c3b85bfb1caf5f.js app.c68a7245dc5340329bae.js
+       app.71d558f1485362526848.js   6.67 KiB   {143}  [emitted]  app
+    vendor.22698e25646290b0dcc1.js  616 bytes   {736}  [emitted]  vendor
+    Entrypoint app = vendor.22698e25646290b0dcc1.js app.71d558f1485362526848.js
     [381] ./constants.js 87 bytes {736} [built]
     [655] ./entry-2.js + 2 modules 197 bytes {143} [built]
         + 4 hidden modules"
@@ -1087,7 +1087,7 @@ chunk {trees} trees.js (trees) 70 bytes [rendered]
 `;
 
 exports[`StatsTestCases should print correct stats for import-context-filter 1`] = `
-"Hash: d8b5dd20ad37daa14615
+"Hash: 5c8aea0c1297542d62c4
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
    Asset       Size  Chunks             Chunk Names
@@ -1453,7 +1453,7 @@ If you don't want to include a polyfill, you can use an empty module like this:
 `;
 
 exports[`StatsTestCases should print correct stats for module-reasons 1`] = `
-"Hash: 9e3985f832f4d566fdbb
+"Hash: 9757fb3da1f7b8f77bbb
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
   Asset      Size  Chunks             Chunk Names
@@ -2287,7 +2287,7 @@ Entrypoint e2 = runtime.js e2.js"
 `;
 
 exports[`StatsTestCases should print correct stats for scope-hoisting-bailouts 1`] = `
-"Hash: 1c46461d8859f1a60bbf
+"Hash: 3a6d350f0bda84541dcc
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
 Entrypoint index = index.js
@@ -2316,9 +2316,9 @@ Entrypoint entry = entry.js
 `;
 
 exports[`StatsTestCases should print correct stats for scope-hoisting-multi 1`] = `
-"Hash: 85ba92b0c0e0343f9b59ea831b31f24e8852ec0e
+"Hash: 22935aaa5f27572061960f27d093f8c0990c5842
 Child
-    Hash: 85ba92b0c0e0343f9b59
+    Hash: 22935aaa5f2757206196
     Time: Xms
     Built at: Thu Jan 01 1970 00:00:00 GMT
     Entrypoint first = vendor.js first.js
@@ -2336,7 +2336,7 @@ Child
     [965] ./vendor.js 25 bytes {736} [built]
         + 10 hidden modules
 Child
-    Hash: ea831b31f24e8852ec0e
+    Hash: 0f27d093f8c0990c5842
     Time: Xms
     Built at: Thu Jan 01 1970 00:00:00 GMT
     Entrypoint first = vendor.js first.js
@@ -2363,7 +2363,7 @@ Child
 `;
 
 exports[`StatsTestCases should print correct stats for side-effects-issue-7428 1`] = `
-"Hash: 2a00397f5b10ccd74572
+"Hash: 71afc1ea6a9dccb4d149
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
   Asset       Size  Chunks             Chunk Names
@@ -2412,7 +2412,7 @@ Entrypoint main = main.js
 `;
 
 exports[`StatsTestCases should print correct stats for side-effects-simple-unused 1`] = `
-"Hash: 6fe12dc0474a9db9245b
+"Hash: d18d6e76d1851cbe4ca8
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
   Asset      Size  Chunks             Chunk Names
@@ -3422,7 +3422,7 @@ chunk {794} default/async-a.js (async-a) 134 bytes <{179}> [rendered]
 `;
 
 exports[`StatsTestCases should print correct stats for tree-shaking 1`] = `
-"Hash: 9dbb25d0f006d2ec5246
+"Hash: 9f0d95b08ca5afeee1fe
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
     Asset     Size  Chunks             Chunk Names
@@ -3483,28 +3483,28 @@ WARNING in Terser Plugin: Dropping unused function someUnRemoteUsedFunction5 [./
 `;
 
 exports[`StatsTestCases should print correct stats for wasm-explorer-examples-sync 1`] = `
-"Hash: 28e82fbaa364030a4205
+"Hash: e53ea6111fab48554b24
 Time: Xms
 Built at: Thu Jan 01 1970 00:00:00 GMT
                            Asset       Size  Chunks             Chunk Names
-00885349ebe3dd903faa.module.wasm  125 bytes   {325}  [emitted]
+10d1272d7cf8dafe2f3a.module.wasm  225 bytes   {780}  [emitted]
                    230.bundle.js  430 bytes   {230}  [emitted]
                    325.bundle.js    3.9 KiB   {325}  [emitted]
                    526.bundle.js  329 bytes   {526}  [emitted]
                    780.bundle.js  842 bytes   {780}  [emitted]
-7d7a509c17179e42766a.module.wasm   94 bytes   {325}  [emitted]
+7eee906d414e0947ebbf.module.wasm  132 bytes   {780}  [emitted]
+94b864234c573663c221.module.wasm   94 bytes   {325}  [emitted]
                     99.bundle.js  428 bytes    {99}  [emitted]
+a160192b41d0463ac226.module.wasm  131 bytes   {230}  [emitted]
                        bundle.js   13.2 KiB   {520}  [emitted]  main-1df31ce3
-cfd5ebf998e67f7103a2.module.wasm  510 bytes    {99}  [emitted]
-e94fc8ba836bfd2c6038.module.wasm  131 bytes   {230}  [emitted]
-f8f99fabd0c63ad1c730.module.wasm  225 bytes   {780}  [emitted]
-fea68b3453f2f8fdfeed.module.wasm  132 bytes   {780}  [emitted]
+d95036d90a8b92bc2692.module.wasm  510 bytes    {99}  [emitted]
+ff9c5233b4dbdf834f6f.module.wasm  125 bytes   {325}  [emitted]
 Entrypoint main = bundle.js
-chunk {99} 99.bundle.js, cfd5ebf998e67f7103a2.module.wasm 100 bytes (javascript) 531 bytes (webassembly) [rendered]
+chunk {99} 99.bundle.js, d95036d90a8b92bc2692.module.wasm 100 bytes (javascript) 531 bytes (webassembly) [rendered]
  [99] ./duff.wasm 100 bytes (javascript) 531 bytes (webassembly) {99} [built]
-chunk {230} 230.bundle.js, e94fc8ba836bfd2c6038.module.wasm 100 bytes (javascript) 156 bytes (webassembly) [rendered]
+chunk {230} 230.bundle.js, a160192b41d0463ac226.module.wasm 100 bytes (javascript) 156 bytes (webassembly) [rendered]
  [230] ./Q_rsqrt.wasm 100 bytes (javascript) 156 bytes (webassembly) {230} [built]
-chunk {325} 325.bundle.js, 7d7a509c17179e42766a.module.wasm, 00885349ebe3dd903faa.module.wasm 1.6 KiB (javascript) 274 bytes (webassembly) [rendered]
+chunk {325} 325.bundle.js, 94b864234c573663c221.module.wasm, ff9c5233b4dbdf834f6f.module.wasm 1.6 KiB (javascript) 274 bytes (webassembly) [rendered]
  [287] ./popcnt.wasm 100 bytes (javascript) 120 bytes (webassembly) {325} [built]
  [325] ./tests.js 1.4 KiB {325} [built]
  [819] ./testFunction.wasm 100 bytes (javascript) 154 bytes (webassembly) {325} [built]
@@ -3513,7 +3513,7 @@ chunk {520} bundle.js (main-1df31ce3) 586 bytes (javascript) 6.52 KiB (runtime) 
      + 7 hidden chunk modules
 chunk {526} 526.bundle.js 34 bytes [rendered] split chunk (cache group: defaultVendors)
  [526] ./node_modules/env.js 34 bytes {526} [built]
-chunk {780} 780.bundle.js, fea68b3453f2f8fdfeed.module.wasm, f8f99fabd0c63ad1c730.module.wasm 205 bytes (javascript) 444 bytes (webassembly) [rendered]
+chunk {780} 780.bundle.js, 7eee906d414e0947ebbf.module.wasm, 10d1272d7cf8dafe2f3a.module.wasm 205 bytes (javascript) 444 bytes (webassembly) [rendered]
  [143] ./fact.wasm 100 bytes (javascript) 154 bytes (webassembly) {780} [built]
  [151] ./fast-math.wasm 105 bytes (javascript) 290 bytes (webassembly) {780} [built]
  [10] ./index.js 586 bytes {520} [built]
