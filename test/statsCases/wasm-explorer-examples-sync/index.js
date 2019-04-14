@@ -1,3 +1,4 @@
+import './index.css'
 it("Q_rsqrt should work", function() {
 	return import("./tests").then(t => t.run_Q_rsqrt());
 });
